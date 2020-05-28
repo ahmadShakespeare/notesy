@@ -43,7 +43,7 @@ describe('Note Handling Functions', () => {
   it('Console conforming add even without category', () => {
     const obj = { action: 'add', payload: 'play', category: '' };
     option.valid(obj);
-    expect(console.log).toHaveBeenCalledTimes(3);
+    expect(console.log).toHaveBeenCalledTimes(2);
   });
 
   //line 46
