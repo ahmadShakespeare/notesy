@@ -1,0 +1,31 @@
+{
+  "name": "notesy",
+  "version": "1.0.0",
+  "description": "this a command-line (CLI) note taking application, with mongodb.",
+  "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "lint": "eslint '**/*.js'",
+      "test": "jest --verbose --coverage",
+      "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadShakespeare/notesy.git"
+  },
+  "author": "Ahmad K. Al-Mahasneh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadShakespeare/notesy/issues"
+  },
+  "homepage": "https://github.com/ahmadShakespeare/notesy#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1"
+  }
+}
