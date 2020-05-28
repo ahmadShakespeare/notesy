@@ -20,6 +20,45 @@
 #### How to initialize/run your application (where applicable)
 
  `npm run start`
+ 
+ ```
+ Adding notes
+
+ node index.js -a <your note> -c <category>
+ node index.js --a <your note> --c <category>
+ node index.js -add <your note> -category <category>
+ node index.js --add <your note> -category <category>
+
+ listing items
+
+ node index.js -l <note wanted>
+ node index.js --l <note wanted>
+ node index.js -list <note wanted> 
+ node index.js --list <note wanted>
+
+ listing items by category
+
+ node index.js -l <note wanted> <category>
+ node index.js --l <note wanted> <category>
+ node index.js -list <note wanted> <category>
+ node index.js --list <note wanted> <category>
+
+ Deleting items
+
+ node index.js -d <id>
+ node index.js --d <id>
+ node index.js -delete <id> 
+ node index.js --delete <id>
+
+updating items
+
+  node index.js -u <id> --text <new note>
+ node index.js --u <id> --text <new note>
+ node index.js -update <id> --text <new note>
+ node index.js --update <id> --text <new note>
+ 
+
+ ```
 
 #### Tests
 
